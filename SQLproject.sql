@@ -54,13 +54,6 @@ group by location
 order by totaldeathcount desc
 
 
-select location,  max(cast(total_deaths as int)) as totaldeathcount
-from [portfolio project].dbo.CovidDeaths
-where continent is null
-group by location
-order by totaldeathcount desc
-
-
 
 select * from [portfolio project].dbo.CovidDeaths 
 
@@ -129,7 +122,7 @@ where dea.continent is not null
 order by 1,2,3
 
 
--------------use cte 
+-------------use cte / temp tables/ views
 
 with popvsvac (continent, location ,date ,population, new_vaccinations,rollingcount)
 as
