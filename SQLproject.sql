@@ -138,6 +138,7 @@ where dea.continent is not null
 select * from popvsvac
 
 
+
 ----- temp table 
 
 
@@ -172,6 +173,9 @@ WHERE
     dea.continent IS NOT NULL;
 
 SELECT * FROM #personvaccinated;
+
+
+
 
 
 --- create views
