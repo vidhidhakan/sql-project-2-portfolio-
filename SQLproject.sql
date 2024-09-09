@@ -208,6 +208,6 @@ WHERE
     dea.continent IS NOT NULL;
 
 
-	select * from vidhidhakan
+select * from vidhidhakan
 
 
